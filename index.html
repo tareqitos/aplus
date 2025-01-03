@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <!-- FONT AWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- YOUTUBE API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="script.js"></script>
+    <title>A+ Studio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href=""><span>A+</span> Studio</a>
+        </div>
+        <button class="nav-btn"><i class="fa fa-bars"></i></button>
+        <div class="side-nav">
+            <button class="close-nav"><i class="fa fa-times"></i></button>
+            <ul class="side-nav-content">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#wwd">What We Do</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <ul class="main-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#wwd">What We Do</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   
+
+    <div class="anchor" id="home"></div>
+    <section class="about">
+        <div class="about-left-content">
+            <h1>A Digital Product Agency</h1>
+            <p>Leading digital agency with solid design and development
+                expertise. We build readymade websites, mobile applications,
+                and elaborate online business services.</p>
+            <button class="contact-now-btn">Contact Now</button>
+            <div class="form-container">
+                <form method="get">
+                    <h1>Contact Now</h1>
+                    <div class="input-container">
+                        <label for="name">Name</label>
+                        <input class="contact-input" type="text" id="name" name="name" required>
+                        <p class="msg">Name must have at least 2 characters</p>
+                    </div>
+                    <div class="input-container">
+                        <label for="company">Company</label>
+                        <input class="contact-input" type="text" id="company" name="company" minlength="5" required>
+                        <p class="msg">Company name must have at least 5 characters</p>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Email</label>
+                        <input class="contact-email contact-input" type="email" id="email" name="email" required>
+                        <p class="msg">Incorrect email address</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="contact-btn" type="submit" value="submit">SEND</button>
+                    </div>
+                </form>
+                
+            </div>
+            <div class="form-bg"></div>
+        </div>
+        <div class="about-right-content">
+            <div class="about-image">
+                <img src="assets/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="anchor" id="wwd"></div>
+    <section class="our-client">
+        <div class="client-left-content">
+            <h1>Our Client</h1>
+            <p>Several selected clients, who already
+                believe in our service.</p>
+        </div>
+        <div class="client-right-content">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/images/brands/google.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/airbnb.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/meta.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/microsoft.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/nodejs.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/nvidia.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/spotify.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/images/brands/twitch.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="anchor" id="service"></div>
+    <section class="help">
+        <div class="help-left-content">
+            <h1>How can we help your Business?</h1>
+            <p>We build readymade websites, mobile applications..
+                and elaborate online business services.</p>
+        </div>
+        <div class="help-right-content">
+            <div class="left-card-set card-set">
+                <div data-aos="fade-up" data-aos-duration="1000" class="first-card card">
+                    <img src="assets/images/business-ico.png" alt="">
+                    <h2>Business Idea Planning</h2>
+                    <p>We present you a proposal and
+                        discuss niffty-gritty like</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="second-card card">
+                    <img src="assets/images/agenda-ico.png" alt="">
+                    <h2>Development Website and App</h2>
+                    <p>Communication protocols apart
+                        from engagement models</p>
+                </div>
+            </div>
+            <div class="right-card-set card-set">
+                <div data-aos="fade-up" data-aos-duration="1000" class="third-card card">
+                    <img src="assets/images/wallet-ico.png" alt="">
+                    <h2>Financial Planning System</h2>
+                    <p>Protocols apart from dengage
+                        models, pricing billing</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="fourth-card card">
+                    <img src="assets/images/market-ico.png" alt="">
+                    <h2>Market Analysis Project</h2>
+                    <p>Protocols apart from aengage
+                        models, pricing billing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="anchor" id="project"></div>
+    <section class="objective">
+        <div class="objective-left-content">
+            <div data-aos="fade-right" data-aos-duration="1000" class="yt-video">
+                <button id="yt-btn" class="yt-btn"><i class="fa-solid fa-play"></i></button>
+                <img src="assets/images/business.jpg" alt="">
+            </div>
+        </div>
+        <div class="ojective-right-content">
+            <h1>Great Digital Product
+                Agency since 2016</h1>
+            <p>Our Business Plan is a written document describing a company's core
+                business activites, Objectives, and how it plans to achieve its goals. Our
+                goal is to provide our client high quality Product with modern idea
+                accordingly their budgets and according thir reuirements.</p>
+        </div>
+    </section>
+
+    <div class="anchor" id="blog"></div>
+    <section class="review">
+        <div class="review-title">
+            <h1>What our happy client say</h1>
+            <p>Several selected clients, who already believe in our service.</p>
+        </div>
+        <div class="review-content-wrapper">
+            <div data-aos="fade-right" data-aos-duration="1000" class="review-left-content">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="review-img"><img src="assets/images/people/person0.jpg" alt=""></div>
+                            <div class="swiper-slide-text-content">
+                                <h2>Matthew Paul</h2>
+                                <p>Perfect, very good job! Thank you for the amazing
+                                    design and work. Really impressed with the high quality
+                                    and quick turnaround time. Highly recommend.</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="review-img"><img src="assets/images/people/person1.jpg" alt=""></div>
+                            <div class="swiper-slide-text-content">
+                                <h2>Ronald McDonald</h2>
+                                <p>Excellent service! The team was very professional and delivered everything on time. I
+                                    am
+                                    extremely satisfied with the results.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-img"><img src="assets/images/people/person2.jpg" alt=""></div>
+                            <div class="swiper-slide-text-content">
+                                <h2>James Smith</h2>
+                                <p>Outstanding experience! The quality of work exceeded my expectations. I would
+                                    definitely
+                                    work
+                                    with them again.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-img"><img src="assets/images/people/person3.jpg" alt=""></div>
+                            <div class="swiper-slide-text-content">
+                                <h2>Emily Davis</h2>
+                                <p>Great job! The project was completed ahead of schedule and the final product was
+                                    fantastic.
+                                    Highly recommended.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-img"><img src="assets/images/people/person4.jpg" alt=""></div>
+                            <div class="swiper-slide-text-content">
+                                <h2>Michael Brown</h2>
+                                <p>Very pleased with the service provided. The team was responsive and attentive to our
+                                    needs.
+                                    The end result was perfect.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" class="review-right-content">
+                <img src="assets/images/people/group.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="anchor" id="contact"></div>
+    <section class="subscribe">
+        <div data-aos="fade-zoom-in" data-aos-duration="1000" class="subscribe-wrapper">
+            <div class="subscribe-left-content">
+                <h1>Subscribe Newsletter</h1>
+                <p>I will update good news and promotion service not spam</p>
+            </div>
+            <div class="subscribe-right-content">
+                <div class="button-wrapper">
+                    <form action="#" method="post">
+                        <input class="email" type="email" placeholder="Enter your email address.." required>
+                        <button type="submit">Contact Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-main">
+            <div class="footer-menus">
+                <div class="studio-desc menu">
+                    <h2> <a class="logo" href=""><span>A+</span> Studio</a></h2>
+                    <p>Leading digital agency with solid design
+                        and development expertise. We build
+                        readymade websites, mobile applications.
+                        and elaborate online business services</p>
+                </div>
+                <div class="what-we-do menu">
+                    <h2>What We Do</h2>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">App Design</a></li>
+                        <li><a href="#">Social Media Manage</a></li>
+                        <li><a href="#">Market Analysis Project</a></li>
+                    </ul>
+                </div>
+                <div class="company menu">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Become Investor</a></li>
+                    </ul>
+                </div>
+                <div class="support menu">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Business Plan</a></li>
+                    </ul>
+                </div>
+                <div class="contact menu">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="#">WhatsApp</a></li>
+                        <li><a href="#">Support 24</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-media">
+                <span class="fa-stack">
+                    <i class="fa fa-circle fa-stack-2x fb"></i>
+                    <a class="fa-brands fa-facebook-f fa-stack-1x" href="#"></a>
+                </span>
+                <span class="fa-stack">
+                    <i class="fa fa-circle fa-stack-2x tw"></i>
+                    <a class="fa-brands fa-twitter fa-stack-1x" href="#"></a>
+                </span>
+                <span class="fa-stack">
+                    <i class="fa fa-circle fa-stack-2x in"></i>
+                    <a class="fa-brands fa-linkedin-in fa-stack-1x" href="#"></a>
+                </span>
+            </div>
+        </div>
+        <p>&copy; 2024 A+ Studio. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
